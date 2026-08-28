@@ -1,0 +1,10 @@
+{
+  "name": "Flaught (@flaught/core)",
+  "install": "npm ci && npm run build && python3 -m pip install --break-system-packages -q semgrep",
+  "terminals": [
+    {
+      "name": "tsc-watch",
+      "command": "npm run dev"
+    }
+  ]
+}
